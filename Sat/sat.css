@@ -1,0 +1,256 @@
+.sat{
+    width:530px;
+    height:530px;  
+    background-color:thistle;
+    border-radius: 50%;
+    border:10px solid rgb(187, 170, 140);
+    position: relative;
+}
+
+.broj{
+    width:100%;
+    height: 100%;
+    position:absolute;
+    text-align: center;
+    transform: rotate(calc(var(--r)*1deg));
+}
+
+.t1{
+    --r:6;
+    color: red;
+    }
+    .t2{
+        --r:12;
+        color: red;
+        }
+        .t3{
+            --r:18;
+            color: red;
+            }
+
+            .t4{
+                --r:24;
+                color: red;
+                }               
+                
+.B1{
+--r:30;
+}
+.t5{
+    --r:36;
+    color: red;
+    }
+    .t6{
+        --r:42;
+        color: red;
+        }
+        .t7{
+            --r:48;
+            color: red;
+            }
+            .t8{
+                --r:54;
+                color: red;
+                }               
+                
+.B2{
+    --r:60;
+    }
+    .t9{
+        --r:66;
+        color: red;
+        }
+        .t10{
+            --r:72;
+            color: red;
+            }
+            .t11{
+                --r:78;
+                color: red;
+                }
+                .t12{
+                    --r:84;
+                    color: red;
+                    }               
+                    
+    .B3{
+        --r:90;
+        }
+        .t13{
+            --r:96;
+            color: red;
+            }
+            .t14{
+                --r:102;
+                color: red;
+                }
+                .t15{
+                    --r:108;
+                    color: red;
+                    }
+                    .t16{
+                        --r:114;color: red;
+                        }               
+                        
+        .B4{
+            --r:120;
+            }
+            .t17{
+                --r:126;color: red;
+                }
+                .t18{
+                    --r:132;color: red;
+                    }
+                    .t19{
+                        --r:138;color: red;
+                        }
+            
+                        .t20{
+                            --r:144;color: red;
+                            }               
+                            
+            .B5{
+                --r:150;
+                }
+                .t21{
+                    --r:156;color: red;
+                    }
+                    .t22{
+                        --r:162;color: red;
+                        }
+                        .t23{
+                            --r:168;color: red;
+                            }
+                            .t24{
+                                --r:174;color: red;
+                                }      
+                .B6{
+                    --r:180;
+                    }
+                    .t25{
+                        --r:186;color: red;
+                        }
+                        .t26{
+                            --r:192;color: red;
+                            }
+                            .t27{
+                                --r:198;color: red;
+                                }
+                                .t28{
+                                    --r:204;color: red;
+                                    }      
+                    .B7{
+                        --r:210;
+                        }
+                        .t29{
+                            --r:216;color: red;
+                            }
+                            .t30{
+                                --r:222;color: red;
+                                }
+                                .t31{
+                                    --r:228;color: red;
+                                    }
+                                    .t32{
+                                        --r:234;color: red;
+                                        }      
+                        .B8{
+                            --r:240;
+                            }
+                            .t33{
+                                --r:246;color: red;
+                                }
+                                .t34{
+                                    --r:252;color: red;
+                                    }
+                                    .t35{
+                                        --r:258;color: red;
+                                        }
+                                        .t36{
+                                            --r:264;color: red;
+                                            }      
+                            .B9{
+                                --r:270;
+                                }
+                                .t37{
+                                    --r:276;color: red;
+                                    }
+                                    .t38{
+                                        --r:282;color: red;
+                                        }
+                                        .t39{
+                                            --r:288;color: red;
+                                            }
+                                            .t40{
+                                                --r:294;color: red;
+                                                }      
+                                .B10{
+                                    --r:300;
+                                    }
+                                    .t41{
+                                        --r:306;color: red;
+                                        }
+                                        .t42{
+                                            --r:312;color: red;
+                                            }
+                                            .t43{
+                                                --r:318;color: red;
+                                                }
+                                                .t44{
+                                                    --r:324;color: red;
+                                                    }      
+                                    .B11{
+                                        --r:330;
+                                    }
+                                    .t45{
+                                        --r:336;color: red;
+                                        }
+                                        .t46{
+                                            --r:342;color: red;
+                                            }
+                                            .t47{
+                                                --r:348;color: red;
+                                                }
+                                    
+                                                .t48{
+                                                    --r:354;color: red;
+                                                    }      
+.postavi{
+    --r:0;
+    position: absolute;
+    width:15px;
+    height:40%;
+   
+    left:50%;
+    bottom: 50%;
+    transform:translate(-50%) rotate(calc(var(--r)*1deg)) ;
+    transform-origin: bottom;
+}
+.sate{
+width:11px;
+height:33%;
+background-color: gray;
+border-radius: 50%;
+}
+.minute{
+    width:7px;
+    height:39%;
+    background-color:rebeccapurple;
+    border-radius: 50%;
+}
+.sekunde{
+    width:3px;
+    height:45%;
+    background-color:red;
+    border-radius: 50%;
+}    
+.point {
+    position:absolute;
+    background-color: sandybrown;
+    width: 15px;
+    height:15px;
+    left:50%;
+    bottom:50%;
+    transform:translate(-50%,50%);
+    border-radius:50%
+}                          
